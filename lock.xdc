@@ -1,0 +1,13 @@
+set_property PACKAGE_PIN P17 [get_ports btn1]
+set_property PACKAGE_PIN N17 [get_ports btn2]
+set_property PACKAGE_PIN M17 [get_ports btn3]
+set_property PACKAGE_PIN E3 [get_ports clk]
+set_property PACKAGE_PIN M18 [get_ports rst]
+set_property PACKAGE_PIN R15 [get_ports {sw[3]}]
+set_property PACKAGE_PIN M13 [get_ports {sw[2]}]
+set_property PACKAGE_PIN L16 [get_ports {sw[1]}]
+set_property PACKAGE_PIN J15 [get_ports {sw[0]}]
+
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn3_IBUF]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn2_IBUF]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets btn1_IBUF]
